@@ -1,0 +1,177 @@
+@font-face {
+  font-family: spring;
+  src: url(./fonts/Spring\ Garden.ttf);
+}
+
+@font-face {
+  font-family: summer;
+  src: url(./fonts/Summer\ Garden.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: sans-serif;
+}
+
+html{
+  height: 100%;
+  background-image: url("./images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+h1{
+  display: block;
+  float: left;
+  font-family: summer;
+  font-size: 100px;
+  margin: 20px 0px 0px 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  margin-right: 30px;
+  margin-top: 35px;
+  
+}
+
+li a {
+  display: block;
+  padding: 10px;
+}
+
+#welcome{
+  text-align: center;
+}
+
+#welcome p {
+  margin: 150px 20px 0px 20px;
+  size: 70px;
+  text-align: center;
+}
+
+#welcome button{
+  size: 20px;
+  padding: 5px 10px 5px 10px;
+  border: solid 1px black;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+
+#signup-container{
+  display: block;
+  background-color: white;
+  border: solid 1.5px black;
+  border-radius: 50px;
+  width: 30%;
+  height: 350px;
+  position: absolute;
+  left: 36%;
+  margin-top: 130px;
+  text-align: center;
+
+}
+
+#login-container{
+  display: block;
+  background-color: white;
+  border: solid 1.5px black;
+  border-radius: 50px;
+  width: 30%;
+  height: 300px;
+  position: absolute;
+  left: 36%;
+  margin-top: 130px;
+  text-align: center;
+
+}
+
+#name{
+  margin-left: 30px;
+}
+
+#email{
+  margin-left: 30px;
+}
+
+#password{
+  margin-left: 5px;
+}
+
+#location{
+  margin-left: 10px;
+}
+
+#signup-container h2, #login-container h2, #home h2{
+  margin-top: 20px;
+  font-family: summer;
+  font-size: 50px;
+}
+
+input{
+  margin-top: 20px;
+  border-radius: 20px;
+  border: solid 1px black;
+  height: 20px;
+}
+
+input:focus{
+  outline: none;
+}
+
+#signup-container button, #login-container button, button{
+  font-size: 15px;
+  color: white;
+  border: none;
+  margin-top: 40px;
+  background-color: rgb(13, 117, 117);
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
+}
+
+#home{
+  margin-top: 100px;
+  padding: 10px;
+  text-align: center;
+
+}
+
+#garden{
+  display: flex;
+  text-align: center;
+}
+
+#card{
+  width: 200px;
+  height: 300px;
+  margin-top: 20px;
+  margin-left: 40px;
+  background-color: white;
+  border: solid 1.5px black;
+  border-radius: 50px;
+  text-align: center;
+}
+
+#home h3{
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+#home img{
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+#red{
+  color: red;
+}
